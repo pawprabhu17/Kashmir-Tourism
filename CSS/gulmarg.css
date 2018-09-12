@@ -1,0 +1,52 @@
+body{
+    background-color:#5e3ff1;
+    
+}
+.navbar{
+    box-shadow:0 4px 7px #000000;
+}
+.yy{
+    border-radius: 10px;
+    float:right;
+}
+@media only screen and (max-width: 686px){
+    .yy{
+        height: 30px;
+        width:60px;
+    }
+}
+.card{
+    margin-top: 3.5%;
+    box-shadow:-3px 3px 9px #000000;
+}
+.cg{
+    color:darkviolet;
+}
+.to{
+    font-family: cursive;
+    color:white;
+}
+.card-header{
+    color: white; 
+     box-shadow:4px -3px 6px #000000;
+    background-color:#32CEBD;;
+}
+.card-text{
+    align-content: center;
+    font-family: 'Nosifer', cursive;
+
+}
+.card-img-top{
+    transition-timing-function:ease;
+    transition-property:all;
+    transition-duration: 0.8s;
+    margin: 1.6% auto 5% auto;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+.card-img-top:hover{
+    transform: scale(1.04);
+    border-radius:0;
+    cursor: pointer;
+}
